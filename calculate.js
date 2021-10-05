@@ -15,7 +15,7 @@ function calculate(next){
 				var total_temp = value.info_card.final_total / 100000;
 				total += total_temp;
 				order++;
-	    		console.log("Order no " + order + ": ", "RM " + total_temp);
+	    			console.log(order + ":", "RM " + total_temp + " - ", value.info_card.order_list_cards[0].items[0].name);
 			}
 			calculate(next_offset);
 		} else {
