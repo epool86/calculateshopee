@@ -24,3 +24,4 @@ function calculate(next){
 		}
 	});
 }
+calculate(0);
