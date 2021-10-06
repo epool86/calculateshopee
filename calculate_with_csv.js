@@ -24,7 +24,7 @@ function calculate(next){
 		} else {
 			exportToCsv('export.csv', datacsv);
 			console.log('Calculation completed!');
-			console.log('GRAND TOTAL: RM ' + total_spent);
+			console.log('GRAND TOTAL: RM ' + Math.round(total_spent * 100) / 100 );
 		}
 	});
 }
