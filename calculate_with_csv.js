@@ -28,7 +28,7 @@ function calculate(next){
 		}
 	});
 }
-//credit to https://stackoverflow.com/questions/14964035/how-to-export-javascript-array-info-to-csv-on-client-side#:~:text=https%3A//stackoverflow.com/a/24922761
+//credit to https://stackoverflow.com/a/24922761
 function exportToCsv(filename, rows) {
     var processRow = function (row) {
         var finalVal = '';
