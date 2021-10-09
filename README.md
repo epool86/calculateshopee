@@ -9,7 +9,7 @@ Just open shopee web and login, then copy & paste this javascript, lastly simply
 
 - Go to https://caiorss.github.io/bookmarklet-maker/ 
 - Copy & Paste "calculate_ui.js" into Code section > Fill the title with "Shopee Total" > Click "Generate Bookmarklet" > Drag Link under "Generate Bookmarklet" button to your bookmark bar.
-- Go to shopee website. Click the bookmark "Shopee Total".
+- Go to Shopee website. Click the bookmark "Shopee Total". Result will appear beside your Shopee username.
 
 NOTE
 1. Only calculate order in "Completed" section
