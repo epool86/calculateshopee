@@ -16,9 +16,9 @@ function calculate(next){
 			for (let [key, value] of Object.entries(body.data.details_list)) {
 				var total_temp = value.info_card.final_total / 100000;
 				total_spent += total_temp;
-				datacsv[order_count] = [order_count + 1, total_temp, value.info_card.order_list_cards[0].items[0].name];
+				datacsv[order_count] = [order_count + 1, total_temp, value.info_card.order_list_cards[0].product_info.item_groups[0].items[0].name];
 				order_count++;
-	    		console.log(order_count + ":", "RM " + total_temp + " - ", value.info_card.order_list_cards[0].items[0].name);
+	    		console.log(order_count + ":", "RM " + total_temp + " - ", value.info_card.order_list_cards[0].product_info.item_groups[0].items[0].name);
 			}
 			calculate(next_offset);
 		} else {

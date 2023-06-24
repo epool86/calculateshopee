@@ -22,7 +22,7 @@ function calculate(next){
 				var total_temp = value.info_card.final_total / 100000;
 				total += total_temp;
 				order++;
-	    		console.log(order + ":", "RM " + total_temp + " - ", value.info_card.order_list_cards[0].items[0].name);
+	    		console.log(order + ":", "RM " + total_temp + " - ", value.info_card.order_list_cards[0].product_info.item_groups[0].items[0].name);
 				navbarLink.innerHTML="Calculating: RM " + Math.round(total * 100) / 100;
 
 			}
