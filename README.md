@@ -1,3 +1,7 @@
+## IMPORTANT UPDATE
+
+# This script is no longer work and not updated. Please use new Chrome Extension here https://github.com/epool86/shopee_order_history 
+
 # calculateshopee
 
 Just open shopee web and login, then copy & paste this javascript, lastly simply run calculate(0);
