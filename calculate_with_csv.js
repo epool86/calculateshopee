@@ -1,6 +1,6 @@
 var total_spent = 0;
 var order_count = 0;
-var datacsv = [];
+var datacsv = [["No.", "Amount (RM)", "Product"]];
 function calculate(next){
 	var opts = {
 		method: 'GET',      
